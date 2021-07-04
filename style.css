@@ -1,0 +1,79 @@
+body {
+    margin-top: 30px;
+    text-align: center;
+    background: linear-gradient(#E4BEE7 0%, #90CAF9 100%);
+    background-repeat: no-repeat;
+    height: 640px;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+h1 {
+    text-shadow: 2px 2px #F8BBD0;
+    font-size: 20px
+}
+
+p {
+    font-size: 18px;
+    color: #6A1B9A;
+}
+
+#bio {
+    margin-top: 200px;
+    height: 100px;
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+    background: #18FFFF;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    position: fixed;
+    z-index: 10;
+}
+
+.links:hover {
+    background-color: aqua;
+}
+
+.links {
+    float: left;
+    color: darkmagenta;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+#about {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#bio {
+    height: 150px;
+}
+
+#myfavoritebooks {
+    background-color: crimson;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#mywork {
+    background-color: aqua;
+}
